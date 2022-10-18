@@ -1,0 +1,1 @@
+cargo build -Z build-std=std,panic_abort --target aarch64-unknown-linux-gnu -Z build-std-features=panic_immediate_abort --release
